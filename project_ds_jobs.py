@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/12GvvfN0IQeD9AXDJxPyk3T_aU2xMjuZA
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
 
 import pandas as pd
 
