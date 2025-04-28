@@ -23,6 +23,7 @@ plt.xlabel('Year')
 plt.ylabel('Average Salary (USD)')
 plt.grid(True)
 plt.show()
+plt.savefig('plot1_salary_trend.png')
 
 # -------------------------------
 # 2. Top 5 Job Titles by Average Salary (Bar Chart)
@@ -34,6 +35,7 @@ plt.title('Top 5 Job Titles by Average Salary')
 plt.xlabel('Average Salary (USD)')
 plt.ylabel('Job Title')
 plt.show()
+plt.savefig('plot2_job_title.png')
 
 # -------------------------------
 # 3. Salary Distribution by Company Size (Box Plot)
@@ -45,7 +47,7 @@ plt.xlabel('Company Size (S=Small, M=Medium, L=Large)')
 plt.ylabel('Salary (USD)')
 plt.grid(True)
 plt.show()
-
+plt.savefig('plot3_salary_distribution.png')
 # -------------------------------
 # 4. Countries Offering Most Jobs (Bar Chart)
 # -------------------------------
@@ -56,6 +58,7 @@ plt.title('Top 10 Countries Offering Most Data Science Jobs')
 plt.xlabel('Number of Jobs')
 plt.ylabel('Country')
 plt.show()
+plt.savefig('plot4_countries_jobs.png')
 
 # -------------------------------
 # 5. Most Popular Job Titles in the US (Bar Chart)
