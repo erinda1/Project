@@ -12,7 +12,7 @@ drive.mount('/content/drive')
 
 import pandas as pd
 
-df = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/ds_salaries.csv')
+df = pd.read_csv('ds_salaries.csv')
 print(df.head())
 
 # Salary trend over years (Line Chart)
